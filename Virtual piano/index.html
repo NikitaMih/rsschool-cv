@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+ <head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Piano</title>
+ </head>
+ <body>
+	<div class="page_wrapper">
+		<header class="head">
+			<h1> Virtual Piano </h1>
+		</header>
+
+		<main>
+			<section>
+				<div class="full_screen" onclick=full_screen()>
+					<p onclick=full()><img src="fullscreen.png" alt="full_screen" width="40px" height="40px"></p>
+				</div>
+			</section> 
+
+			<section>
+				<div class="keys">
+					<div class="white_piano_keys" onclick=soundClickDO()>D</div>
+					<div class="black_piano_keys" onclick=soundClickDO()>R</div>
+					<div class="white_piano_keys" onclick=soundClickRE()>F</div>
+					<div class="black_piano_keys" onclick=soundClickRE()>T</div>
+					<div class="white_piano_keys" onclick=soundClickMI()>G</div>
+					<div class="white_piano_keys" onclick=soundClickFA()>H</div>
+					<div class="black_piano_keys" onclick=soundClickFA()>U</div>
+					<div class="white_piano_keys" onclick=soundClickSOL()>J</div>
+					<div class="black_piano_keys" onclick=soundClickSOL()>I</div>
+					<div class="white_piano_keys" onclick=soundClickLJA()>K</div>
+					<div class="black_piano_keys" onclick=soundClickLJA()>O</div>
+					<div class="white_piano_keys" onclick=soundClickSI()>L</div>	
+				</div>
+
+				<audio id="do" src="audio/do.mp3" autoplay="autoplay"></audio>
+				<audio id="re" src="audio/re.mp3" autoplay="autoplay"></audio>
+				<audio id="mi" src="audio/mi.mp3" autoplay="autoplay"></audio>
+				<audio id="fa" src="audio/fa.mp3" autoplay="autoplay"></audio>
+				<audio id="sol" src="audio/sol.mp3" autoplay="autoplay"></audio>
+				<audio id="lja" src="audio/lja.mp3" autoplay="autoplay"></audio>
+				<audio id="si" src="audio/si.mp3" autoplay="autoplay"></audio>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="github">
+				<a href="https://rolling-scopes-school.github.io/stage1-tasks/virtual-piano/"><img src="github.png" alt="github" width="40px" height="40px"></a>
+			</div>
+
+			<div class="w"><p></p></div>
+
+			<div class="rsschool">
+				<a href="https://rs.school/js/"><img src="rs_school.svg" alt="rs_school" width="80px" height="60px"></a>
+			</div>
+		</footer>
+	</div>
+ </body>
+ <script src="scriptaudio.js"></script>
+</html>
