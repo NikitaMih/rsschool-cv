@@ -19,3 +19,8 @@ Background in Business Analysis in the Banking sphere. Participated and successf
 * GIT;
 * Webpack;
 * Parcel;
+
+### Contacts:
+
+<p>Phone: + 375 (29) 399 - 31- 98;</p>
+<p>Telegram: @NikitaMih;</p>
