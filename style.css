@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.hero{
+    padding: 3%;
+    text-align: center;
+    background-color: #545454;
+}
+
+.hero-description{
+    color: #ffe7d4;
+}
+
+.about{
+    padding: 2%;
+    text-align: center;
+}
+
+.skills{
+    padding: 2%;
+}
+
+.contacts{
+    padding: 2%;
+    text-align: center;
+}
+
+.title{
+    font-size: 3rem;
+    color: #ffe7d4;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 2rem;
+    color: #00000;
+}
+
+.description{
+    padding: 2%;
+    font-size: 1.5rem;
+    color: #545454;;
+}
+
+.description li{
+    text-align: center;
+    list-style-type: none;
+}
